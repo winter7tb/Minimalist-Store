@@ -197,3 +197,26 @@ input {
   color: white;
   cursor: pointer;
 }
+
+ @media (max-width: 768px) {
+        .left-side {
+          font-size: 1.5em;
+          left: 5%;
+        }
+        .myp {
+          font-size: 14px;
+        }
+        .shop {
+          font-size: 14px;
+        }
+        .flex-wrap {
+          grid-template-columns: 1fr;
+        }
+        .Image-large {
+          height: auto;
+        }
+        .Image-large img {
+          transform: none;
+        }
+      }
+  
