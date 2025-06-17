@@ -198,7 +198,7 @@ input {
   cursor: pointer;
 }
 
- @media screen and (max-width: 768px) {
+ @media (min-width: 1024px) and (max-width: 1439px) {
         .hero {
           display: flex;
           justify-content: space-between;
@@ -228,11 +228,6 @@ input {
            font-size: 2em;
            font-weight: bold;
            font-family: arial;
-        }
-        .myh2,
-        .myp1 {
-          position: static;
-          margin: 10px;
         }
 
         .footer-content {
