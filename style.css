@@ -245,7 +245,7 @@ input {
 
   @media(min-width: 1024px) and (max-width: 1439px) {
     body{
-          width: 600vw;
+          width: 300vw;
           height: max-content;
         }
         .hero {
