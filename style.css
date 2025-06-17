@@ -200,25 +200,35 @@ input {
 
  @media screen and (max-width: 768px) {
         .hero {
-          flex-direction: column;
-          align-items: flex-start;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
         }
 
         nav ul {
-          flex-direction: column;
+          display: flex;  
           gap: 10px;
         }
 
         .left-side {
-          font-size: 1.5em;
-          left: 5%;
-          top: 10%;
+          position: absolute;
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 3em;
+          left: 100px;
+          top: 20%;
         }
 
-        .Image-large img {
-          transform: none;
+        .Image-1 img{
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+        }        
+        .logo2 {
+           font-size: 2em;
+           font-weight: bold;
+           font-family: arial;
         }
-
         .myh2,
         .myp1 {
           position: static;
@@ -226,6 +236,10 @@ input {
         }
 
         .footer-content {
-          flex-direction: column;
-        }
+ gi display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
       }
