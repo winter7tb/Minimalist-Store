@@ -200,7 +200,7 @@ input {
 
  @media (max-width: 767px){
         body{
-          width: 300vw;
+          width: 600vw;
           height: max-content;
         }
         .hero {
@@ -245,7 +245,7 @@ input {
 
   @media(min-width: 1024px) and (max-width: 1439px) {
     body{
-          width: 300vw;
+          width: 600vw;
           height: max-content;
         }
         .hero {
