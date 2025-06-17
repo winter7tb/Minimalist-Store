@@ -220,7 +220,7 @@ input {
         }
 
         .Image-1 img{
-           width: 100%;
+           width: 200%;
            height: 100%;
            object-fit: cover;
         }        
