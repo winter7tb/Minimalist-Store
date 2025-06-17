@@ -198,7 +198,11 @@ input {
   cursor: pointer;
 }
 
- @media (min-width: 1024px) and (max-width: 1439px) {
+ @media (max-width: 767px){
+        body{
+          width: 100vw;
+          height: max-content;
+        }
         .hero {
           display: flex;
           justify-content: space-between;
