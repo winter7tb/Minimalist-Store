@@ -242,3 +242,48 @@ input {
   margin: 0 auto;
         }
       }
+
+  @media(min-width: 1024px) and (max-width: 1439px) {
+    body{
+          width: 100vw;
+          height: max-content;
+        }
+        .hero {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        nav ul {
+          display: flex;  
+          gap: 10px;
+        }
+
+        .left-side {
+          position: absolute;
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 3em;
+          left: 100px;
+          top: 20%;
+        }
+
+        .Image-1 img{
+           width: 200%;
+           height: 100%;
+           object-fit: cover;
+        }        
+        .logo2 {
+           font-size: 2em;
+           font-weight: bold;
+           font-family: arial;
+        }
+
+        .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+        }
+  }
