@@ -201,7 +201,7 @@ input {
  @media (max-width: 767px){
         body{
           width: 300vw;
-          height: max-content;
+          height: 50vh;
         }
         .hero {
           display: flex;
