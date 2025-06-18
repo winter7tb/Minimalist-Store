@@ -221,14 +221,14 @@ input {
           font-size: 3em;
           left: 100px;
           top: 20%;
-          max-width: 100px;
+          max-width: 300px;
         }
 
         .myp{
-          max-width: 100px;
+          max-width: 300px;
         }
         .Image-1 img{
-           width: 300%;
+           width: 350%;
            height: 100%;
            object-fit: cover;
         }        
